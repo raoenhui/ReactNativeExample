@@ -4,7 +4,10 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "ios": "react-native run-ios --simulator 'iPhone 6'",
+    "android": "react-native run-android",
+    "react-devtools": "react-devtools"
   },
   "dependencies": {
     "react": "16.8.3",
@@ -16,6 +19,7 @@
     "babel-jest": "^25.1.0",
     "jest": "^25.1.0",
     "metro-react-native-babel-preset": "^0.58.0",
+    "react-devtools": "^4.5.0",
     "react-test-renderer": "16.8.3"
   },
   "jest": {
